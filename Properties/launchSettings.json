@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "SendEmail": {
+      "commandName": "Project",
+      "commandLineArgs": "send-email -r user@test.com"
+    },
+    "Cleanup": {
+      "commandName": "Project",
+      "commandLineArgs": "cleanup"
+    },
+    "GenerateReport": {
+      "commandName": "Project",
+      "commandLineArgs": "generate-report -d 2026-06-16"
+    }
+  }
+}
